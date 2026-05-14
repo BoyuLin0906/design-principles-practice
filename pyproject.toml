@@ -1,0 +1,6 @@
+[project]
+name = "design-principles-practice"
+version = "0.1.0"
+description = "Practice repository for design principles"
+requires-python = ">=3.11"
+dependencies = []
