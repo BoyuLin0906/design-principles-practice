@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/usr/bin/env bash \"$(git rev-parse --show-toplevel)/.codex/hooks/stop_check_principle_structure.sh\"",
+            "timeout": 30,
+            "statusMessage": "Checking principle structure"
+          }
+        ]
+      }
+    ]
+  }
+}
